@@ -40,6 +40,17 @@ public class Main {
         int[] arrayList1  = {11,22,33,44,55};
         System.out.println(Arrays.toString(arrayList1));
 
+        //multidimensional array
+
+        int[][] numbersArray = new int[2][3];
+        numbersArray[0][0]=1;
+        numbersArray[0][1]=22;
+        numbersArray[1][2]=88;
+        System.out.println(Arrays.deepToString(numbersArray));
+
+        int [][] numberArray1 = {{1,33,44}, {2222,4444}};
+        System.out.println(Arrays.deepToString(numberArray1));
+
 
     }
 }
