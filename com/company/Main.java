@@ -52,5 +52,22 @@ public class Main {
         System.out.println(Arrays.deepToString(numberArray1));
 
 
+        // Constants
+        // constant values are always suppose to be written in the capital with final keyword;
+        final float PI = 3.14F;
+        System.out.println(PI);
+
+        // Arithmetic expressions
+
+        int num1 = 10;
+        int num2 = 3;
+
+        double result1 = num1/num2;
+        double result2 = (double)num1/num2;
+        System.out.println("result with out converting the data type  " + result1);
+        System.out.println("result with converting the data type  " + result2);
+
+
+
     }
 }
